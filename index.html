@@ -11,7 +11,11 @@
 
        <!-- tailwind and daisyUI -->
          <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
-       <script src="https://cdn.tailwindcss.com"></script>
+         <script src="https://cdn.tailwindcss.com"></script>
+         <!-- flowbite UI  -->
+         
+         <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.css" rel="stylesheet" />
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"></script>
        <!-- font-awesome cdn -->
        <script src="https://kit.fontawesome.com/6e6416f0d9.js" crossorigin="anonymous"></script>
        <!-- custom config for tailwind -->
@@ -21,7 +25,7 @@
                extend: {
                  colors: {
                    clifford: '#da373d',
-                   'btn-col':'#B68C5A'
+                   'btn-col':'#B68C5A',
                  }
                }
              }
@@ -88,52 +92,165 @@
     </header>
 
     <main class="max-w-7xl mx-auto">
+      <!-- legal part  -->
       <section class="legal-part my-24 md:my-36 text-center">
-        <h1 class="text-2xl md:text-4xl lg:text-[40px] font-bold md:font-extrabold">The Legal Practice Area</h1>
+        <h1 class="text-2xl md:text-4xl lg:text-[40px] font-bold md:font-extrabold text-slate-700">The Legal Practice Area</h1>
         <p class="max-w-2xl mx-auto my-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
 
         <!-- boxes container -->
-        <div class="all-box grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center mt-16 ">
+        <div class="all-box grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center mx-12 md:mx-20 mt-10 md:mt-16">
           
-          <div class="max-w-[320px] space-y-6 flex flex-col justify-center items-center py-8 px-12">
+          <div class=" space-y-6 flex flex-col justify-center items-center py-12 px-8 md:px-7 lg:px-14 border-b">
             <img src="./images/business.png">
-            <h2 class="text-2 font-semibold md:font-bold md:text-3xl">Business Law</h2>
+            <h2 class="text-[21px] font-semibold md:font-bold md:text-2xl text-gray-700">Business Law</h2>
             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-            <i class="fa-solid fa-circle-arrow-right"></i>
+            <i class="fa-solid fa-circle-arrow-right text-2xl md:text-3xl text-btn-col"></i>
           </div>
-          <div class="max-w-[320px] space-y-6 flex flex-col justify-center items-center py-8 px-12 border">
+          <div class=" space-y-6 flex flex-col justify-center items-center py-12 px-8 md:px-7 lg:px-14 border border-t-0" style="background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0.00) 100%);">
             <img src="./images/business.png">
-            <h2 class="text-2 font-semibold md:font-bold md:text-3xl">Criminal Law</h2>
+            <h2 class="text-[21px] font-semibold md:font-bold md:text-2xl text-gray-700">Criminal Law</h2>
             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-            <i class="fa-solid fa-circle-arrow-right"></i>
+            <i class="fa-solid fa-circle-arrow-right text-2xl md:text-3xl text-btn-col"></i>
           </div>
-          <div class="max-w-[320px] space-y-6 flex flex-col justify-center items-center py-8 px-12">
+          <div class=" space-y-6 flex flex-col justify-center items-center py-12 px-8 md:px-7 lg:px-14 border-b">
             <img src="./images/business.png">
-            <h2 class="text-2 font-semibold md:font-bold md:text-3xl">Child Support</h2>
+            <h2 class="text-[21px] font-semibold md:font-bold md:text-2xl text-gray-700">Child Support</h2>
             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-            <i class="fa-solid fa-circle-arrow-right"></i>
+            <i class="fa-solid fa-circle-arrow-right text-2xl md:text-3xl text-btn-col"></i>
           </div>
-          <div class="max-w-[320px] space-y-6 flex flex-col justify-center items-center py-8 px-12">
+          <div class=" space-y-6 flex flex-col justify-center items-center py-12 px-8 md:px-7 lg:px-14">
             <img src="./images/business.png">
-            <h2 class="text-2 font-semibold md:font-bold md:text-3xl">Education Law</h2>
+            <h2 class="text-[21px] font-semibold md:font-bold md:text-2xl text-gray-700">Education Law</h2>
             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-            <i class="fa-solid fa-circle-arrow-right"></i>
+            <i class="fa-solid fa-circle-arrow-right text-2xl md:text-3xl text-btn-col"></i>
           </div>
-          <div class="max-w-[320px] space-y-6 flex flex-col justify-center items-center py-8 px-12">
+          <div class=" space-y-6 flex flex-col justify-center items-center py-12 px-8 md:px-7 lg:px-14 border border-b-0 border-t-0">
             <img src="./images/business.png">
-            <h2 class="text-2 font-semibold md:font-bold md:text-3xl">Divorce Law</h2>
+            <h2 class="text-[21px] font-semibold md:font-bold md:text-2xl text-gray-700">Divorce Law</h2>
             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-            <i class="fa-solid fa-circle-arrow-right"></i>
+            <i class="fa-solid fa-circle-arrow-right text-2xl md:text-3xl text-btn-col"></i>
           </div>
-          <div class="max-w-[320px] space-y-6 flex flex-col justify-center items-center py-8 px-12">
+          <div class=" space-y-6 flex flex-col justify-center items-center py-12 px-8 md:px-7 lg:px-14">
             <img src="./images/business.png">
-            <h2 class="text-2 font-semibold md:font-bold md:text-3xl">Tax Law</h2>
+            <h2 class="text-[21px] font-semibold md:font-bold md:text-2xl text-gray-700">Tax Law</h2>
             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-            <i class="fa-solid fa-circle-arrow-right"></i>
+            <i class="fa-solid fa-circle-arrow-right text-2xl md:text-3xl text-btn-col"></i>
           </div>
 
         </div>
       </section>
+
+      <!-- clients say part  -->
+
+      <section class="text-center mt-44">
+        <h1 class="text-2xl md:text-4xl lg:text-[40px] font-bold md:font-extrabold text-slate-600">What Our Client Say</h1>
+        <p class="max-w-2xl mx-auto my-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+
+        
+<div id="default-carousel" class="relative w-[85%] lg:w-full mx-auto mt-6 md:mt-8" data-carousel="slide">
+  <!-- Carousel wrapper -->
+  <div class="relative h-56 overflow-hidden rounded-lg md:h-[330px] lg:h-[450px]">
+       <!-- Item 1 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <div style="background:url(/images/slider-1.jpg)" class=" flex flex-col justify-center items-center gap-1 md:gap-2 lg:gap-3 absolute block h-full w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
+            <img class="w-11 md:w-fit" src="./images/Ellipse 1.png">
+            <h1 class= "text-lg md:text-2xl text-slate-200">Jack Henos</h1>
+            <h3 class="text-sm md:text-lg text-btn-col">UIX Designer</h3>
+            <p class="text-gray-400 w-4/5 text-xs md:text-sm lg:text-lg">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+          </div>
+      </div>
+      <!-- Item 2 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img src="./images/slider-2.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+      </div>
+      <!-- Item 3 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img src="./images/slider-3.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+      </div>
+  </div>
+  <!-- Slider indicators -->
+  <div class="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
+      <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+      <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+      <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+  </div>
+  <!-- Slider controls -->
+  <button type="button" class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+      <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+          <svg class="w-4 h-4 text-white dark:text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+          </svg>
+          <span class="sr-only">Previous</span>
+      </span>
+  </button>
+  <button type="button" class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+      <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+          <svg class="w-4 h-4 text-white dark:text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+          </svg>
+          <span class="sr-only">Next</span>
+      </span>
+  </button>
+</div>
+
+
+
+      </section>
+
+      <!-- FAQ section -->
+
+      <section class=" my-28">
+        <h1 class="text-slate-700 text-2xl md:text-4xl lg:text-[40px] font-bold md:font-extrabold text-center">Frequently Asked Any Questions</h1>
+        <p class="max-w-2xl mx-auto my-4 text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+
+        <div class="mt-12 flex flex-col-reverse md:flex-row h-[400px] ">
+
+            <div class="flex flex-col flex-1 gap-4 md:gap-6">
+              <div class="collapse collapse-plus bg-base-200 rounded-md  p-3">
+                <input type="radio" name="my-accordion-3" checked="checked" /> 
+                <div class="collapse-title text-xl font-medium">
+                 1. Are application fee waivers available?
+                </div>
+                <div class="collapse-content"> 
+                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,</p>
+                </div>
+              </div>
+              <div class="collapse collapse-plus bg-base-200 rounded-md p-3">
+                <input type="radio" name="my-accordion-3" /> 
+                <div class="collapse-title text-xl font-medium">
+                 2. Are application fee waivers available?
+                </div>
+                <div class="collapse-content"> 
+                  <p>hello</p>
+                </div>
+              </div>
+              <div class="collapse collapse-plus bg-base-200 rounded-md p-3">
+                <input type="radio" name="my-accordion-3" /> 
+                <div class="collapse-title text-xl font-medium">
+                 3. Are application fee waivers available?
+                </div>
+                <div class="collapse-content"> 
+                  <p>hello</p>
+                </div>
+              </div>
+              <div class="collapse collapse-plus bg-base-200 rounded-md p-3">
+                <input type="radio" name="my-accordion-3" /> 
+                <div class="collapse-title text-xl font-medium">
+                 4. Are application fee waivers available?
+                </div>
+                <div class="collapse-content"> 
+                  <p>hello</p>
+                </div>
+              </div>
+            </div>
+         <div class="flex-1">
+          <img class="w-full" src="./images/faq.png">
+         </div>
+          
+        </div>
+
+      </section>
+
 
     </main>
 
